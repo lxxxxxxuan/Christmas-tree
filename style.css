@@ -1,0 +1,62 @@
+#Yan .name {
+ position: absolute;
+ width: 300px;
+ text-align: center;
+ border: 10px #ffe766 solid;
+ font-size: 50px;
+ background-color: #ffd700;
+ color: #323232;
+ font-family: "Arial black", Gadget, sans-serif;
+}
+
+#Yan { 
+  background: url(https://media.giphy.com/media/bhFMbDZpU1Cuc/giphy.gif)no-repeat center center fixed; 
+background-size: cover;
+  background-color: black;
+  margin:15px;
+  height:320px;
+  width: 320px;
+  position: relative;
+  display: inline-block;
+}
+
+#Yan .trunk {
+ border-color: green transparent;
+ border-style: solid;
+ border-width: 0px 15px 200px;
+ position: absolute;
+ bottom: 0px;
+ left: 43%;
+ height: 0px;
+ width: 0px;
+}
+
+#Yan .branch {
+ border-color: pink transparent;
+ border-style: solid;
+ height: 0px;
+ position: absolute;
+ width: 0;
+ border-width: 0 100px 120px;
+ left: 17%;
+}
+
+#Yan .bottom {
+ bottom: 30px;
+ border-bottom-left-radius: 50% 20px;
+ border-bottom-right-radius: 50% 20px;
+}
+
+#Yan .middle {
+ bottom: 80px;
+ border-bottom-left-radius: 50% 60px;
+ border-bottom-right-radius: 50% 60px;
+}
+
+#Yan .top {
+ bottom: 130px;
+ border-bottom-left-radius: 50% 100px;
+ border-bottom-right-radius: 50% 100px;
+}
+  
+
